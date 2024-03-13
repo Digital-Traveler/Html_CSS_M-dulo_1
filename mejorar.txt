@@ -1,0 +1,2 @@
+meterle un poco más de padding.
+etiquetas semanticas en el "footer"

@@ -1,0 +1,112 @@
+* {
+    font-family: cursive;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container-header {
+    background-image: url(/images/design1_image1.jpg);
+    background-size: cover;
+    background-position-y: 15%;
+    height: 200px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(0.7);
+    
+}
+
+.container-header h1 {
+    margin: 0;
+}
+
+
+.conteiner-header-bottom {
+    /* background-color: antiquewhite; */
+    height: 60px;
+    position: relative;
+}
+
+.conteiner-header-bottom h2 {
+    background-color: black;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+/*LOGO*/
+.conteiner-header-bottom img {
+
+    width: 150px;
+    height: 150px;
+    background-color: rgba(99, 90, 90, 0.116);
+    position: absolute;
+    left: 80%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+
+.container-central {
+    display: flex;
+    flex-direction: row;
+}
+
+.Container-Left {
+    /* background-color: red; */
+    min-width: 20%;
+    height: 100%;
+
+}
+
+.Container-Left a {
+    display: block;
+    line-height: 4;
+    width: 130;
+    margin: 20px;
+    font-size: 18px;
+
+}
+nav {
+    display: flex;
+}
+.Container-Right {
+    line-height: 2;
+    /* background-color: green; */
+    width: 80%;
+    height: 100%;
+    display: block;
+
+}
+.Container-Right p {
+    font-weight: bold;
+}
+
+.Container-Right img {
+    width: 600px;
+    height: 400px;
+}
+.flooter {
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: auto;
+    align-items: center;
+    text-align: center;
+
+}
+.contact-text {
+    margin: 50px;
+    width: 300px;
+}
